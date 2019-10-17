@@ -26,7 +26,7 @@ import os
 from django import http
 from django import shortcuts
 from django.conf import settings
-from django.core import reverse
+from django.urls import reverse
 from django.shortcuts import redirect
 from django.utils import html
 import jsonpickle
